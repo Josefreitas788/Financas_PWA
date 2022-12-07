@@ -2,8 +2,11 @@ import React from 'react';
 import { Text, View, Image, Button} from 'react-native';
 import styles from './styles'
 import Icon from "react-native-vector-icons/AntDesign";
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-export default function Welcome() {
+
+export default function Welcome({navigation}) {
     return (
       <View>
         <View style={{ width: '80%'}}>
@@ -24,7 +27,8 @@ export default function Welcome() {
             color="#139892"
             size={30}  
             alignContent="center"
-          // onPress={() => {alert('Simple Button pressed') navigation.navigate('Editar') }}
+          onPress={() => navigation.navigate('Login') }
+          // {alert('Simple Button pressed'); navigation.navigate('Login') }}
           />
         </View>
       </View>
