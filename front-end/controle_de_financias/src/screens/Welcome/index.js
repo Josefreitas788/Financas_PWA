@@ -27,8 +27,8 @@ export default function Welcome({navigation}) {
             color="#139892"
             size={30}  
             alignContent="center"
-          onPress={() => navigation.navigate('Login') }
-          // {alert('Simple Button pressed'); navigation.navigate('Login') }}
+          // onPress={() => navigation.navigate('Login') }
+          onPress={() => alert('A rota ainda não está funcionando.')}
           />
         </View>
       </View>
