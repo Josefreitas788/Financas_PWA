@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const StyleHeader = StyleSheet.create({
+const StyleIcon = StyleSheet.create({
     common_w: {
         backgroundColor: "#139892",
     },
@@ -10,4 +10,4 @@ const StyleHeader = StyleSheet.create({
 });
 
 
-export default StyleHeader;
+export default StyleIcon;

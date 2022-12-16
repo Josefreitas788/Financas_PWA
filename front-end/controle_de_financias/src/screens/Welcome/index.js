@@ -1,12 +1,11 @@
 import React from 'react';
-import { Text, View, Image, Button} from 'react-native';
+import { Text, View, Image} from 'react-native';
 import styles from './styles'
 import Icon from "react-native-vector-icons/AntDesign";
 // import { NavigationContainer } from '@react-navigation/native';
-// import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
-export default function Welcome({navigation}) {
+function Welcome({navigation}) {
     return (
       <View>
         <View style={{ width: '80%'}}>
@@ -27,10 +26,11 @@ export default function Welcome({navigation}) {
             color="#139892"
             size={30}  
             alignContent="center"
-          // onPress={() => navigation.navigate('Login') }
-          onPress={() => alert('A rota ainda não está funcionando.')}
+            onPress={() => navigation.navigate('Login') }
           />
         </View>
       </View>
     );
   }
+
+export default Welcome;

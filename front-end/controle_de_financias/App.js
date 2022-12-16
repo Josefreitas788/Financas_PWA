@@ -1,14 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Welcome from './src/screens/Welcome';
+import { StyleSheet, View } from 'react-native';
+import AuthRoutes from './src/Routes';
 
-export default function App() {
+function App() {
   return (
     <View style={styles.container}>
-      <Welcome />
-      {/* <Text>Olá mundo!!</Text> */}
-      <StatusBar style="auto" />
+      <AuthRoutes />
     </View>
   );
 }
@@ -21,3 +19,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App;

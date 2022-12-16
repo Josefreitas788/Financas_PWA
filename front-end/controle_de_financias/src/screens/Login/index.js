@@ -1,12 +1,15 @@
 import React from 'react';
-import { Text, View, Image, Button} from 'react-native';
-import styles from './styles'
-import Icon from "react-native-vector-icons/AntDesign";
+import { View } from 'react-native';
+//import Input from '../../components/Input/index';
+//import Button from '../../components/Button/index';
 
-export default function Login() {
-    return (
-      <View>
-        Teste
-      </View>
-    );
-  }
+function Login() {
+  return (
+    <View>
+      Texte
+
+    </View>
+  );
+}
+
+export default Login;
