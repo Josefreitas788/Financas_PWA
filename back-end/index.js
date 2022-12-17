@@ -1,4 +1,5 @@
 var express = require("express");
+const sequelize = require('./models/connection_db');
 
 
 var app = express();app.listen(3000, () => {
@@ -6,7 +7,13 @@ var app = express();app.listen(3000, () => {
 
 });
 
+sequelize.authenticate().then(() => {
+  console.log("Success!");
+  }).catch((err) => {
+    console.log(err);
+  });
+
 
   app.get("/", (req, res, next) => {
-    res.json(["Tony","Lisa","Michael","Ginger","Food"]);
+    res.json();
     });
