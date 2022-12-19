@@ -1,0 +1,39 @@
+{
+    "usuario" : 
+    [
+        {   "id" : "",
+            "email" : "",
+            "senha" : ""
+        }
+    ],
+    "categoria" :
+    [
+        {   "id" : "",
+            "descricao" : ""
+        },
+        {   "id" : "",
+            "descricao" : ""
+        }
+    ],
+    "despesa" :
+    [
+        {
+            "id" : "1",
+            "descricao" : "",
+            "id_usuario" : "",
+            "id_categoria" : "",
+            "data" : "",
+            "valor" : ""
+        },
+        {
+            "id" : "2",
+            "descricao" : "Descrição da receita 2",
+            "id_categoria" : "2",
+            "data" : "",
+            "valor" : ""
+            
+        }
+    
+    
+
+}
