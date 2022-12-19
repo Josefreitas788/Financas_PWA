@@ -1,12 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
+//import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import AuthRoutes from './src/Routes';
+import Login from './src/screens/Login';
+
+import Welcome from './src/screens/Welcome';
 
 function App() {
   return (
     <View style={styles.container}>
-      <AuthRoutes />
+      <Login />
     </View>
   );
 }

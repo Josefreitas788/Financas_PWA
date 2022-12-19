@@ -1,13 +1,20 @@
 import React from 'react';
-import { View } from 'react-native';
-//import Input from '../../components/Input/index';
-//import Button from '../../components/Button/index';
+import { View, Button, TextInput } from 'react-native';
+import styles from './styles';
 
 function Login() {
   return (
     <View>
-      Texte
-
+        <TextInput
+          style={styles.inputText}
+          placeholder="Insira o Login"
+        />
+        <TextInput
+          style={styles.inputText}
+          placeholder="Insira a Senha"
+        />
+        <Button style={styles.buttonInput} title="Entrar" />
+        <Button style={styles.buttonInput} title="Cadastrar" />
     </View>
   );
 }

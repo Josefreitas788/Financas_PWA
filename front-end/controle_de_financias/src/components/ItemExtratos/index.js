@@ -11,20 +11,11 @@ function sumItemExtratos(props) {
 function ItemExtratos(props) {
     const extratos = props.array.array.forEach(element => {
         <Text>{element.data}</Text>
-        element.info.forEach(info =>
+        element.info.forEach(info => {
             <sumItemExtratos nome={info.gastoNome} valor={info.valor} />
+        });
     });
     return extratos
 }
 
-function Extratos(props) {
-
-  return (
-    <View >
-      <ItemExtratos array={props.array} />
-        <Button />
-    </View>
-  );
-}
-
-export default Home;
+export default ItemExtratos;
