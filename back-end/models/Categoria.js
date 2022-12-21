@@ -1,6 +1,7 @@
 const { sequelize, DataTypes } = require("sequelize");
+const db = require("./connection_db");
 
-const Categoria = sequelize.define("categoria",{
+const Categoria = db.define("categoria",{
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
