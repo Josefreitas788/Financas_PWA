@@ -1,0 +1,226 @@
+Nomes : José Antônio, Heloise Katharine, Raul Lima
+
+Rotas: 
+//Categoria
+
+  Post
+    /categoria/
+
+    request: 
+
+      {
+        "id": "id da categoria",
+        "descricao": "descrição da categoria"
+      }
+
+    response: 
+
+      { 
+      "id": "id da categoria",
+      "descricao": "descrição da categoria"
+      }
+
+  Put
+    /categoria/
+
+    request: 
+
+      {
+        "id": "id da categoria",
+        "descricao": "descrição da categoria"
+      }
+
+    response: 
+
+      {
+        "id": "id da categoria",
+        "descricao": "descrição da categoria"
+      }
+
+  Delete
+    /categoria/{id}
+
+    request: 
+
+     {}
+
+    response: 
+
+      {
+        "id": "id da categoria",
+        "descricao": "descrição da categoria"
+      }
+
+  Get
+    /categoria/{id}
+
+    request: 
+
+      {}
+
+    response: 
+
+      {
+        "id": "id da categoria",
+        "descricao": "descrição da categoria"
+      }
+
+//Despesa
+
+  Post
+  /despesa/
+  
+  request: 
+  
+    {
+      "id": "id da despesa",
+      "descricao": "descrição da despesa",
+      "id_categoria": "id da categoria",
+      "id_usuario": "id do usuário",
+      "valor": "valor da despesa",
+      "data": "data da despesa"
+    }
+
+  response: 
+  
+    {
+      "id": "id da despesa",
+      "descricao": "descrição da despesa",
+      "id_categoria": "id da categoria",
+      "id_usuario": "id do usuário",
+      "valor": "valor da despesa",
+      "data": "data da despesa"
+    }
+
+  Put
+  /despesa/
+
+  request: 
+
+    {
+      "id": "id da despesa",
+      "descricao": "descrição da despesa",
+      "id_categoria": "id da categoria",
+      "id_usuario": "id do usuário",
+      "valor": "valor da despesa",
+      "data": "data da despesa"
+    }
+
+  response: 
+
+    {
+      "id": "id da despesa",
+      "descricao": "descrição da despesa",
+      "id_categoria": "id da categoria",
+      "id_usuario": "id do usuário",
+      "valor": "valor da despesa",
+      "data": "data da despesa"
+    }
+
+  Delete
+  /despesa/{id}
+
+  request: 
+
+    {}
+
+  response: 
+
+    {
+      "id": "id da despesa",
+      "descricao": "descrição da despesa",
+      "id_categoria": "id da categoria",
+      "id_usuario": "id do usuário",
+      "valor": "valor da despesa",
+      "data": "data da despesa"
+    }
+
+  Get
+  /despesa/{id}
+
+  request: 
+
+    {}
+
+  response: 
+
+    {
+      "id": "id da despesa",
+      "descricao": "descrição da despesa",
+      "id_categoria": "id da categoria",
+      "id_usuario": "id do usuário",
+      "valor": "valor da despesa",
+      "data": "data da despesa"
+    }
+  
+  //Usuario
+
+  Post
+  /usuario/
+
+  request: 
+
+    {
+      "id": "id do usuário",
+      "email": "email do usuário",
+      "senha": "senha do usuário"
+    }
+    
+  response: 
+
+    {
+      "id": "id do usuário",
+      "email": "email do usuário",
+      "senha": "senha do usuário"
+    }
+
+  Put
+  /usuario/
+
+  request: 
+
+    {
+      "id": "id do usuário",
+      "email": "email do usuário",
+      "senha": "senha do usuário"
+    }
+
+  response: 
+
+    {
+      "id": "id do usuário",
+      "email": "email do usuário",
+      "senha": "senha do usuário"
+    }
+
+  Delete
+  /usuario/{id}
+
+  request: 
+
+    {}
+
+  response: 
+
+    {
+      "id": "id do usuário",
+      "email": "email do usuário",
+      "senha": "senha do usuário"
+    }
+
+  Get
+  /usuario/{id}
+
+  request: 
+
+    {}
+
+  response: 
+
+    {
+      "id": "id do usuário",
+      "email": "email do usuário",
+      "senha": "senha do usuário"
+    }
+
+
